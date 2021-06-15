@@ -27,6 +27,7 @@ public class Curso {
     public void setPromedio(double[] notas){
         double promedio = 0;
         double suma = 0; 
+        //revice concepto de variables acumuladoras
         for(int i=0; i<12; i++){
             double almacenado = notas [i];
             suma = almacenado + suma; //Mediante esto se sumaran los valores
@@ -39,6 +40,7 @@ public class Curso {
         int estudiantes = 0;
         double promedio = 0; 
         double suma=0;
+        //codigo duplicado ya existe en el anterior proceso.
             for(int i=0; i<12; i++){
                 double almacenado = notas[i];
                 suma = almacenado + suma; //Mediante esto se sumaran los valores
